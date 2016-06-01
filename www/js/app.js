@@ -1,4 +1,4 @@
-angular.module('ionic-socketio-chat-client', ['ionic', 'ngSanitize', 'btford.socket-io'])
+var app=angular.module('ionic-socketio-chat-client', ['ionic', 'ngSanitize', 'btford.socket-io'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
